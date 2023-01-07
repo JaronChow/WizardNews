@@ -2,14 +2,16 @@
   "name": "wnews",
   "version": "1.0.0",
   "description": "a cool news app",
-  "main": "...",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
     "start:dev": "nodemon app.js",
     "start": "node app.js"
   },
+  "keywords": [],
   "author": "",
   "license": "ISC",
+  "devDependencies": {
+    "nodemon": "^1.14.7"
+  },
   "dependencies": {
     "express": "^4.18.2",
     "morgan": "^1.10.0"
